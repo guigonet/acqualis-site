@@ -1,0 +1,120 @@
+ACQUALIS ENGENHARIA HÍDRICA
+Glossário de Tradução PT → EN — Versão em Inglês do Site
+========================================================
+Data: 21/05/2026
+
+
+EMPRESA & GERAL
+---------------
+Português                          | Inglês
+-----------------------------------|--------------------------------------
+Acqualis Engenharia Hídrica        | Acqualis Water Engineering
+Consultoria em Recursos Hídricos   | Water Resources Consulting
+Empresa                            | About Us
+Serviços                           | Services
+Clientes                           | Clients
+Contato                            | Contact
+Áreas de Atuação                   | Areas of Expertise
+Clique para saber mais             | Learn More
+Redes Sociais                      | Social Media
+Endereço                           | Address
+
+
+SLOGAN — AGUARDANDO DECISÃO DO CLIENTE
+---------------------------------------
+Original:
+  "Engenharia de Qualidade ao Alcance das Águas"
+
+Opções de tradução:
+
+  A) "Quality Engineering at the Water's Edge"
+     → Mais poético e memorável, mantém a ideia de proximidade com a água.
+
+  B) "Quality Engineering for Aquatic Environments"
+     → Mais técnico e direto, adequado para público científico/institucional.
+
+  C) "Precision Engineering for Water Solutions"
+     → Mais comercial e orientado a negócios.
+
+  Por favor, indique a opção preferida (A, B ou C)
+  ou sugira uma alternativa.
+
+
+NOME DA EMPRESA — AGUARDANDO DECISÃO DO CLIENTE
+-------------------------------------------------
+  Opção 1: Manter "Acqualis Engenharia Hídrica" (bilíngue, preserva identidade)
+  Opção 2: Traduzir para "Acqualis Hydraulic Engineering" nas páginas em inglês
+
+  Por favor, indique a preferência.
+
+
+PÁGINAS DE SERVIÇO
+------------------
+Pasta atual (PT)                                           | Título em inglês                        | URL sugerida (pasta eng/)
+-----------------------------------------------------------|------------------------------------------|--------------------------------
+analise-risco-costeiro                                     | Coastal Flood Risk Analysis              | coastal-flood-risk-analysis
+aquicultura                                                | Aquaculture                              | aquaculture
+consultoria-ambiental-modelagem                            | Environmental Consulting                 | environmental-consulting
+dispersao-de-efluente                                      | Effluent Dispersion                      | effluent-dispersion
+dispersao-depuracao-efluente-ete                           | Effluent Treatment (WWTP)                | effluent-treatment-wwtp
+drenagem-pluvial                                           | Stormwater Drainage                      | stormwater-drainage
+engenharia-modelagem-costeira                              | Coastal & Offshore Engineering           | coastal-offshore-engineering
+estuarios-gestao-modelagem                                 | Estuarine Management                     | estuarine-management
+hidrovias-modelagem-hidrodinamica-dragagem                 | Waterways & Dredging                     | waterways-dredging
+modelagem-consultoria-ambiental                            | Environmental Modeling & Consulting      | environmental-modeling
+modelagem-qualidade-agua                                   | Water Quality Modeling                   | water-quality-modeling
+monitoramento-ambiental-vazao-batimetria-modelagem-numerica| Environmental Monitoring                 | environmental-monitoring
+recursos-hidricos-consultoria-ambiental                    | Water Resources Management               | water-resources
+servicos-estudos-ambientais                                | Environmental Studies & Services         | services
+(home)                                                     | Home                                     | eng/
+
+
+TERMOS TÉCNICOS
+---------------
+Português                              | Inglês
+---------------------------------------|---------------------------------------
+Engenharia Hídrica                     | Hydraulic Engineering
+Hidrodinâmica                          | Hydrodynamics
+Modelagem Hidrodinâmica                | Hydrodynamic Modeling
+Hidrologia                             | Hydrology
+Hidráulica                             | Hydraulics
+Modelagem Ambiental                    | Environmental Modeling
+Modelagem Numérica                     | Numerical Modeling
+Qualidade de Água                      | Water Quality
+Transporte de Sedimentos               | Sediment Transport
+Sedimentologia                         | Sedimentology
+Batimetria                             | Bathymetry
+Vazão                                  | Flow Rate / Discharge
+Efluente                               | Effluent
+Depuração de Efluente                  | Effluent Depuration / Treatment
+ETE (Estação de Tratamento de Efluentes)| WWTP (Wastewater Treatment Plant)
+Saneamento                             | Sanitation
+Água & Energia                         | Water & Energy
+Água & Saneamento                      | Water & Sanitation
+Drenagem Urbana / Águas Urbanas        | Urban Drainage / Urban Hydrology
+Engenharia Costeira                    | Coastal Engineering
+Offshore                               | Offshore (mantém)
+Estuários                              | Estuaries
+Hidrovias                              | Waterways
+Dragagem                               | Dredging
+Recursos Hídricos                      | Water Resources
+Estudos Ambientais                     | Environmental Studies
+Consultoria Ambiental                  | Environmental Consulting
+Monitoramento Ambiental                | Environmental Monitoring
+Aquicultura                            | Aquaculture
+Análise de Risco Costeiro de Inundação | Coastal Flood Risk Analysis
+Gestão Estuarina                       | Estuarine Management
+Gestão de Recursos Hídricos            | Water Resources Management
+
+
+PRÓXIMOS PASSOS
+---------------
+1. Cliente revisa e aprova o glossário acima
+2. Confirmar slogan em inglês (opção A, B, C ou alternativa)
+3. Confirmar nome da empresa nas páginas em inglês
+4. Traduzir o conteúdo de cada página usando este glossário como referência
+5. Criar a versão inglesa dentro da pasta eng/ do site
+
+
+========================================================
+Documento preparado por: Acqualis Engenharia Hídrica / Claude Code

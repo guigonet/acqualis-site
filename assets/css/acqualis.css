@@ -1,0 +1,856 @@
+.navbar a.navbar-brand {
+	color: #269fef;
+}
+.navbar .nav > li > a, .navbar-large .menu-item .menu-item-description {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 300;
+	color: #777;
+}
+.entry-title {
+	color: #000000;
+}
+.entry-teaser .entry-title {
+	font-style: normal;
+	font-weight: 300;
+}
+.single .entry-title, .page .entry-title {
+	font-style: normal;
+	font-weight: 300;
+}
+.entry-meta {
+	color: #1e73be;
+}
+.entry-content {
+	font-style: normal;
+	font-weight: 300;
+}
+.entry-summary {
+	font-style: normal;
+	font-weight: 300;
+	color: #333333;
+}
+.widget-title {
+	font-style: normal;
+	font-weight: 300;
+}
+.widget {
+	font-style: normal;
+	font-weight: 300;
+	color: #333;
+}
+.site-footer {
+	font-style: normal;
+	font-weight: 300;
+	color: #2388e0;
+}
+.site-footer a {
+	color: #80B5CE;
+}
+.site-footer a:hover {
+	color: #428bca;
+}
+@media (min-width: 992px) {
+	.custom-query-slider .slide {
+		height: 360px;
+	}
+	
+	.sidebar-full-screen .custom-query-slider .slide {
+		height: 350px;
+	}
+}
+
+
+
+.background-parallax {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	height: calc( 5vh / 4 + 100% );
+	background-size: tiled vertically;
+}
+
+
+
+/*  REDIMENSIONAMENTO DA LOGO NO CABEÇALHO  */
+@media (min-width: 992px) {
+	.navbar-large .site-logo {
+		max-height: 60px;
+        }
+}
+
+
+/*  CENTRALIZAÇÃO DA LOGO VERTICALMENTE NO CABEÇALHO  */
+.navbar a.navbar-brand {
+	padding: 10px 50px;
+}
+
+
+/*  ESPAÇAMENTO DA LOGO PARA O MENU NO CABEÇALHO  */
+@media (min-width: 768px) {
+	.navbar > .container .navbar-brand {
+		margin-left: -75px;
+	}
+}
+
+
+/*  COR DE FUNDO DO RODAPÉ DA PÁGINA  */
+.design-full-screen .sidebar-footer {
+	/*background-color: rgb(68,190,236);*/
+        /*background: rgb(0,103,154);*/
+        background: rgb(0,99,154);
+}
+
+
+/*  COR DE FUNDO DO SEGUNDO RODAPÉ  */
+footer {
+              
+       /*background: rgb(0,103,154);*/
+       /*background-color: rgb(68,189,235);*/
+       background-color: #44beec;
+}
+
+
+/*  ESPAÇAMENTOS SUPERIOR E INFERIOR DE HEADER DA PAGINA HOME  */
+.design-full-screen .sidebar-header,
+.design-full-screen .sidebar-header-secondary,
+.design-full-screen .sidebar-footer,
+.design-full-screen .sidebar-footer-secondary {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.design-full-screen .sidebar-after-content {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+}
+
+/*  ESPAÇAMENTOS SUPERIOR E INFERIOR DO WIDGET LIST   */
+@media (min-width: 768px) {
+	.design-full-screen .sidebar-header .widget,
+	/*.design-full-screen .sidebar-header-secondary .widget,*/
+	.design-full-screen .sidebar-footer .widget,
+	.design-full-screen .sidebar-footer-secondary .widget {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}
+.design-full-screen .sidebar-after-content {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+/*  ESPAÇAMENTOS ENTRE COLUNAS DA LISTA DO RODAPÉ   */
+.sidebar-header-secondary .row,
+.sidebar-footer .row {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+
+/*  ESPAÇAMENTOS ENTRE COLUNAS DA LISTA DO HEADER   */
+.sidebar-header .row,
+.sidebar .row {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+
+/* COR E SOMBREADO DA FONTE DO SEGUNDO RODAPÉ */
+.site-footer {
+	color: rgb(0,99,154);
+        text-align: center;
+	/*text-shadow: rgb(250, 250, 250) -1px -1px 0px;*/
+        text-shadow: rgb(250,250,250) -1px -1px 0px;
+}
+
+
+/* TAMANHO DO SEGUNDO RODAPÉ */
+.site-footer .container {
+	border-top: 0px solid #eee;
+	padding: 0px 0 0px;
+}
+
+
+/* REDIMENSIONAR TAMANHO DO SECONDARY-HEADER */
+.design-full-screen .sidebar-header-secondary .widget {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin: 0;
+}
+
+
+/* NÃO SEI PQ, MAS AUMENTA A DISTÂNCIA DE BOTTOM DO RODAPÉ */
+.design-full-screen .sidebar-header .widget {
+	padding-bottom: 0px;
+	margin: 50;
+}
+
+/*  COR DE FUNDO DO HEADER SIDEBAR  */
+/*.design-full-screen .sidebar-header-secondary {*/
+/*	background: rgb(255,255,255);*/
+/*}*/
+
+
+/*  Dimensiona os espaçamentos superior e inferior do Content  */
+@media (min-width: 768px) {
+	.single .site-content,
+	.page .site-content {
+		margin-top: 10px;
+                margin-bottom: -50px;
+	}
+}
+
+
+
+.bypostauthor > .media-body > .comment-header .comment-author {
+	background: #f0f0f0;
+	padding: 0px 0px;
+	margin-right: 4px;
+	border-radius: 4px;
+}
+
+.navbar-brand > .site-logo {
+    max-height: 42px;
+}
+
+.navbar-large .navbar-brand > .site-logo {
+    max-height: 60px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #e7e7e7;
+		background: #fff;
+	}
+.custom-sidebar-4 > .background-parallax {
+	background-attachment: scroll;
+}
+.custom-sidebar-5 {
+	background-color: transparent;
+	background-position: center;
+	background-size: auto;
+}
+.custom-sidebar-5 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-5 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-5 .widget-title, .custom-sidebar-5 .widget h1, .custom-sidebar-5 .widget h2, .custom-sidebar-5 .widget h3, .custom-sidebar-5 .widget h4, .custom-sidebar-5 .widget h5, .custom-sidebar-5 .widget h6 {
+	color: ;
+}
+.custom-sidebar-5 .widget {
+	color: ;
+}
+.custom-sidebar-5 .widget {
+	background-color: transparent;
+}
+.custom-sidebar-6 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-6 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-6 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-6 .widget-title, .custom-sidebar-6 .widget h1, .custom-sidebar-6 .widget h2, .custom-sidebar-6 .widget h3, .custom-sidebar-6 .widget h4, .custom-sidebar-6 .widget h5, .custom-sidebar-6 .widget h6 {
+	color: ;
+}
+.custom-sidebar-6 .widget {
+	color: ;
+}
+.custom-sidebar-6 .widget {
+	background-color: ;
+}
+.custom-sidebar-7 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-7 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-7 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-7 .widget-title, .custom-sidebar-7 .widget h1, .custom-sidebar-7 .widget h2, .custom-sidebar-7 .widget h3, .custom-sidebar-7 .widget h4, .custom-sidebar-7 .widget h5, .custom-sidebar-7 .widget h6 {
+	color: ;
+}
+.custom-sidebar-7 .widget {
+	color: ;
+}
+.custom-sidebar-7 .widget {
+	background-color: ;
+}
+.custom-sidebar-8 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-8 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-8 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-8 .widget-title, .custom-sidebar-8 .widget h1, .custom-sidebar-8 .widget h2, .custom-sidebar-8 .widget h3, .custom-sidebar-8 .widget h4, .custom-sidebar-8 .widget h5, .custom-sidebar-8 .widget h6 {
+	color: ;
+}
+.custom-sidebar-8 .widget {
+	color: ;
+}
+.custom-sidebar-8 .widget {
+	background-color: ;
+}
+.custom-sidebar-9 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-9 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-9 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-9 .widget-title, .custom-sidebar-9 .widget h1, .custom-sidebar-9 .widget h2, .custom-sidebar-9 .widget h3, .custom-sidebar-9 .widget h4, .custom-sidebar-9 .widget h5, .custom-sidebar-9 .widget h6 {
+	color: ;
+}
+.custom-sidebar-9 .widget {
+	color: ;
+}
+.custom-sidebar-9 .widget {
+	background-color: ;
+}
+.custom-sidebar-10 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-10 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-10 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-10 .widget-title, .custom-sidebar-10 .widget h1, .custom-sidebar-10 .widget h2, .custom-sidebar-10 .widget h3, .custom-sidebar-10 .widget h4, .custom-sidebar-10 .widget h5, .custom-sidebar-10 .widget h6 {
+	color: ;
+}
+.custom-sidebar-10 .widget {
+	color: ;
+}
+.custom-sidebar-10 .widget {
+	background-color: ;
+}
+.custom-sidebar-11 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-11 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-11 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-11 .widget-title, .custom-sidebar-11 .widget h1, .custom-sidebar-11 .widget h2, .custom-sidebar-11 .widget h3, .custom-sidebar-11 .widget h4, .custom-sidebar-11 .widget h5, .custom-sidebar-11 .widget h6 {
+	color: ;
+}
+.custom-sidebar-11 .widget {
+	color: ;
+}
+.custom-sidebar-11 .widget {
+	background-color: ;
+}
+.custom-sidebar-12 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-12 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-12 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-12 .widget-title, .custom-sidebar-12 .widget h1, .custom-sidebar-12 .widget h2, .custom-sidebar-12 .widget h3, .custom-sidebar-12 .widget h4, .custom-sidebar-12 .widget h5, .custom-sidebar-12 .widget h6 {
+	color: ;
+}
+.custom-sidebar-12 .widget {
+	color: ;
+}
+.custom-sidebar-12 .widget {
+	background-color: ;
+}
+.custom-sidebar-13 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-13 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-13 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-13 .widget-title, .custom-sidebar-13 .widget h1, .custom-sidebar-13 .widget h2, .custom-sidebar-13 .widget h3, .custom-sidebar-13 .widget h4, .custom-sidebar-13 .widget h5, .custom-sidebar-13 .widget h6 {
+	color: ;
+}
+.custom-sidebar-13 .widget {
+	color: ;
+}
+.custom-sidebar-13 .widget {
+	background-color: ;
+}
+.custom-sidebar-14 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-14 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-14 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-14 .widget-title, .custom-sidebar-14 .widget h1, .custom-sidebar-14 .widget h2, .custom-sidebar-14 .widget h3, .custom-sidebar-14 .widget h4, .custom-sidebar-14 .widget h5, .custom-sidebar-14 .widget h6 {
+	color: ;
+}
+.custom-sidebar-14 .widget {
+	color: ;
+}
+.custom-sidebar-14 .widget {
+	background-color: ;
+}
+.custom-sidebar-15 {
+	background-color: transparent;
+	background-position: center;
+	background-size: auto;
+}
+.custom-sidebar-15 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-15 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-15 .widget-title, .custom-sidebar-15 .widget h1, .custom-sidebar-15 .widget h2, .custom-sidebar-15 .widget h3, .custom-sidebar-15 .widget h4, .custom-sidebar-15 .widget h5, .custom-sidebar-15 .widget h6 {
+	color: ;
+}
+.custom-sidebar-15 .widget {
+	color: ;
+}
+.custom-sidebar-15 .widget {
+	background-color: transparent;
+}
+.custom-sidebar-16 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-16 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-16 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-16 .widget-title, .custom-sidebar-16 .widget h1, .custom-sidebar-16 .widget h2, .custom-sidebar-16 .widget h3, .custom-sidebar-16 .widget h4, .custom-sidebar-16 .widget h5, .custom-sidebar-16 .widget h6 {
+	color: ;
+}
+.custom-sidebar-16 .widget {
+	color: ;
+}
+.custom-sidebar-16 .widget {
+	background-color: ;
+}
+.custom-sidebar-31 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-31 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-31 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-31 .widget-title, .custom-sidebar-31 .widget h1, .custom-sidebar-31 .widget h2, .custom-sidebar-31 .widget h3, .custom-sidebar-31 .widget h4, .custom-sidebar-31 .widget h5, .custom-sidebar-31 .widget h6 {
+	color: ;
+}
+.custom-sidebar-31 .widget {
+	color: ;
+}
+.custom-sidebar-31 .widget {
+	background-color: ;
+}
+.custom-sidebar-32 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-32 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-32 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-32 .widget-title, .custom-sidebar-32 .widget h1, .custom-sidebar-32 .widget h2, .custom-sidebar-32 .widget h3, .custom-sidebar-32 .widget h4, .custom-sidebar-32 .widget h5, .custom-sidebar-32 .widget h6 {
+	color: ;
+}
+.custom-sidebar-32 .widget {
+	color: ;
+}
+.custom-sidebar-32 .widget {
+	background-color: ;
+}
+.custom-sidebar-33 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-33 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-33 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-33 .widget-title, .custom-sidebar-33 .widget h1, .custom-sidebar-33 .widget h2, .custom-sidebar-33 .widget h3, .custom-sidebar-33 .widget h4, .custom-sidebar-33 .widget h5, .custom-sidebar-33 .widget h6 {
+	color: ;
+}
+.custom-sidebar-33 .widget {
+	color: ;
+}
+.custom-sidebar-33 .widget {
+	background-color: ;
+}
+.custom-sidebar-34 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-34 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-34 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-34 .widget-title, .custom-sidebar-34 .widget h1, .custom-sidebar-34 .widget h2, .custom-sidebar-34 .widget h3, .custom-sidebar-34 .widget h4, .custom-sidebar-34 .widget h5, .custom-sidebar-34 .widget h6 {
+	color: ;
+}
+.custom-sidebar-34 .widget {
+	color: ;
+}
+.custom-sidebar-34 .widget {
+	background-color: ;
+}
+.custom-sidebar-38 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-38 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-38 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-38 .widget-title, .custom-sidebar-38 .widget h1, .custom-sidebar-38 .widget h2, .custom-sidebar-38 .widget h3, .custom-sidebar-38 .widget h4, .custom-sidebar-38 .widget h5, .custom-sidebar-38 .widget h6 {
+	color: ;
+}
+.custom-sidebar-38 .widget {
+	color: ;
+}
+.custom-sidebar-38 .widget {
+	background-color: ;
+}
+.custom-sidebar-37 {
+	background-color: transparent;
+	background-position: center;
+	background-size: auto;
+}
+.custom-sidebar-37 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-37 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-37 .widget-title, .custom-sidebar-37 .widget h1, .custom-sidebar-37 .widget h2, .custom-sidebar-37 .widget h3, .custom-sidebar-37 .widget h4, .custom-sidebar-37 .widget h5, .custom-sidebar-37 .widget h6 {
+	color: ;
+}
+.custom-sidebar-37 .widget {
+	color: ;
+}
+.custom-sidebar-37 .widget {
+	background-color: transparent;
+}
+.custom-sidebar-39 {
+	background-color: ;
+	background-position: ;
+	background-repeat: ;
+	background-size: ;
+	background-attachment: scroll;
+}
+.custom-sidebar-39 .sidebar-title {
+	color: ;
+}
+.custom-sidebar-39 .sidebar-description {
+	color: ;
+}
+.custom-sidebar-39 .widget-title, .custom-sidebar-39 .widget h1, .custom-sidebar-39 .widget h2, .custom-sidebar-39 .widget h3, .custom-sidebar-39 .widget h4, .custom-sidebar-39 .widget h5, .custom-sidebar-39 .widget h6 {
+	color: ;
+}
+.custom-sidebar-39 .widget {
+	color: ;
+}
+.custom-sidebar-39 .widget {
+	background-color: ;
+}
+.custom-sidebar-40 {
+}
+.custom-sidebar-41 {
+}
+.custom-sidebar-42 {
+}
+.custom-sidebar-43 {
+}
+.custom-sidebar-44 {
+}
+.custom-sidebar-45 {
+}
+.custom-sidebar-46 {
+}
+.custom-sidebar-47 {
+}
+.custom-sidebar-48 {
+}
+.custom-sidebar-49 {
+}
+.custom-sidebar-50 {
+}
+.custom-sidebar-51 {
+}
+.custom-sidebar-52 {
+}
+.custom-sidebar-53 {
+}
+.custom-sidebar-54 {
+}
+.custom-sidebar-56 {
+	background-color: rgba(48, 191, 235, 1);
+	background-repeat: repeat-x;
+}
+.custom-sidebar-57 {
+	background-color: rgba(0, 143, 205, 1);
+	background-repeat: repeat;
+}
+.custom-sidebar-58 {
+	background-color: rgba(0, 107, 158, 1);
+}
+.custom-sidebar-55 {
+}
+.custom-sidebar-60 {
+}
+.custom-sidebar-59 {
+}
+.custom-sidebar-4 {
+	position: relative;
+	overflow: hidden;
+}
+.custom-sidebar-5 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-6 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-7 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-8 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-9 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-10 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-11 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-12 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-13 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-14 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-15 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-16 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-31 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-32 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-33 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-34 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-38 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-37 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+.custom-sidebar-39 .widget {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+}
+
+.archive-header .background-parallax {
+	background-image: url(../images/Logo_Acqualis_Original.png);
+}
+
+body.custom-background { background-color: #ffffff; }
+
+.formdresk {
+	width:600px;
+}
+.formdresk iframe {
+	width:100%;
+	overflow:none;
+	height:1500px;
+}
+@media screen and (max-width:767px) {
+	.formdresk {
+		width:100%;
+	}
+	.formdresk iframe {
+		width:100%;
+		overflow:none;
+		height:1700px;
+	}
+}
+
+.whatsapp-float{position:fixed;bottom:20px;right:20px;width:80px;height:80px;background-color:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:9999;box-shadow:2px 2px 8px rgba(0,0,0,.3);text-decoration:none;}
+.whatsapp-float svg{width:48px;height:48px;fill:#fff;}
+@media(max-width:767px){.whatsapp-float{width:50px;height:50px;}.whatsapp-float svg{width:30px;height:30px;}}
