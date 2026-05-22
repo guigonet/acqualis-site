@@ -856,7 +856,10 @@ body.custom-background { background-color: #ffffff; }
 .lang-switcher a:hover{opacity:1;}
 .lang-flag-active{opacity:1;cursor:default;}
 .lang-switcher img{border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.3);}
-@media(max-width:767px){.lang-switcher{display:none !important;}}
+@media(max-width:767px){
+  .lang-switcher{padding:4px 15px;}
+  .lang-switcher a,.lang-flag-active{padding:6px 4px;}
+}
 
 .whatsapp-float{position:fixed;bottom:20px;right:20px;width:80px;height:80px;background-color:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:9999;box-shadow:2px 2px 8px rgba(0,0,0,.3);text-decoration:none;}
 .whatsapp-float svg{width:48px;height:48px;fill:#fff;}
